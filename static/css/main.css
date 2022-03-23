@@ -2,7 +2,7 @@ body {
   margin: 0;
   line-height: 1.5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: rgb(204, 203, 203);
+  color: rgb(236, 234, 234);
   background-color: #16a368;
   min-height: 100vh;
   display: grid;
@@ -10,7 +10,7 @@ body {
 }
 body.dark {
   color: #fff;
-  background-color: #150050;
+  background-color: #082842;
 }
 img {
   width: 100%;
@@ -113,11 +113,11 @@ hr {
   align-items: center;
   justify-content: center;
   padding: 0.5rem 0;
-  background: #0c8351;
+  background: #065725;
   color: white;
 }
 body.dark .footer {
-  background: #3d3d3d;
+  background: #133B5C;
 }
 .hero {
   margin: 3rem 0;
@@ -241,11 +241,12 @@ body.dark .section-title {
   
 }
 body.dark .card {
-  background: #140441;
-  box-shadow: 0 0 0 1px rgba(255,255,255,0.06) , 0 2px 2px rgba(255,255,255,0.04) , 0 4px 4px rgba(255,255,255,0.05) , 0 6px 6px rgba(255,255,255,0.06);
+  background: #133B5C;
+ 
 }
 .card__title {
   font-size: 1.266rem;
+  font-weight: 600;
   margin-top: 0;
   margin-bottom: 0.1rem;
 }

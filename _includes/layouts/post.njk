@@ -4,6 +4,7 @@ layout: layouts/base.njk
 
 <div class="container-sm">
   <h1>{{ title }}</h1>
+  <p> Posted by <a href="https://twitter.com/ryokavertikal"><b>Ryoka</b></a> on: <time datetime="{{ page.date }}">{{ page.date | readableDate }}</time></p>
   {{ content | safe }}
 
   <br><hr>
