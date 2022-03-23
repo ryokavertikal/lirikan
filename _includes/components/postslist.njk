@@ -10,7 +10,7 @@
       <div class="card__tags">
         {% for tag in post.data.tags %}
           {% if tag != 'post' %}
-            <a href="{{ '/tags/' | url }}{{ tag | slug }}">{{ tag }}</a>
+            <u><a href="{{ '/tags/' | url }}{{ tag | slug }}">{{ tag }}</a></u>
             {%- if not loop.last %}, {% endif %}
           {% endif %}
         {% endfor %}
